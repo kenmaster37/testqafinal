@@ -1,0 +1,25 @@
+
+plugins {
+    id 'java'
+}
+
+
+group = 'com.dxhotels'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:7.14.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.14.0'
+    testImplementation 'net.serenity-bdd:serenity-core:3.6.23'
+    testImplementation 'net.serenity-bdd:serenity-junit:3.6.23'
+    testImplementation 'net.serenity-bdd:serenity-cucumber:3.6.23'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.7'
+}
+
+
+

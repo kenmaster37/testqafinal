@@ -1,0 +1,8 @@
+/home/giovanni/testapi/src/test/java/com/testapi/utils/JsonUtils.java
+/home/giovanni/testapi/src/test/java/com/testapi/steps/UserSteps.java
+/home/giovanni/testapi/src/test/java/com/testapi/steps/booker/BookingSteps.java
+/home/giovanni/testapi/src/test/java/com/testapi/pages/booker/BookingApiPage.java
+/home/giovanni/testapi/src/test/java/com/testapi/models/User.java
+/home/giovanni/testapi/src/test/java/com/testapi/models/booker/Booking.java
+/home/giovanni/testapi/src/test/java/com/testapi/pages/UserApiPage.java
+/home/giovanni/testapi/src/test/java/runners/CucumberTestSuite.java

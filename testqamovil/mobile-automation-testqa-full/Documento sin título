@@ -1,0 +1,12 @@
+webdriver {
+  driver = appium
+}
+
+appium {
+  platformName = "Android"
+  deviceName = "emulator-5554"
+  automationName = "uiautomator2"
+  app = "/home/giovanni/clone2/saucelabs-sample.apk"
+}
+
+serenity.project.name = "Mobile Automation - Swag Labs"

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="API Restful Booker Management" skipped="0" tests="2" time="11.11" timestamp="2025-08-27 01:25:22"><testcase name="Consultar la lista de reservas"/><testcase name="Crear, actualizar y eliminar una reserva"/></testsuite>

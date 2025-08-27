@@ -1,0 +1,3 @@
+com/testqa/mobile/runner/CucumberTestSuite.class
+com/testqa/mobile/stepdefinitions/ShoppingSteps.class
+com/testqa/mobile/stepdefinitions/LoginSteps.class
