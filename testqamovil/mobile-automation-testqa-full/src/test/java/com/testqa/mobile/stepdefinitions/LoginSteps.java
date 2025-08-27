@@ -18,7 +18,7 @@ public class LoginSteps {
   @Given("el usuario abre la app")
   public void elUsuarioAbreLaApp() throws Exception {
 
-    // --- Intento A: dejar que Appium detecte el launcher (sin appPackage/appActivity)
+
     UiAutomator2Options opts = new UiAutomator2Options()
         .setPlatformName("Android")
         .setAutomationName("UiAutomator2")
@@ -38,7 +38,6 @@ public class LoginSteps {
     try {
       driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), opts);
     } catch (org.openqa.selenium.SessionNotCreatedException e) {
-      // --- Intento B: forzar LAUNCHER conocido (p.ej. MainActivity) y aceptar cualquiera al esperar
       UiAutomator2Options forced = new UiAutomator2Options()
           .setPlatformName("Android")
           .setAutomationName("UiAutomator2")
@@ -59,12 +58,12 @@ public class LoginSteps {
       driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), forced);
     }
 
-    // Log de diagnóstico inmediato
+  
     try {
       System.out.println("Pkg=" + driver.getCurrentPackage() + " Act=" + driver.currentActivity());
     } catch (Exception ignore) {}
 
-    // Espera a que esté visible el login
+    
     waitFor().until(ExpectedConditions.presenceOfElementLocated(
         AppiumBy.accessibilityId("test-Username")));
   }
@@ -89,7 +88,6 @@ public class LoginSteps {
 
   @Then("debería ingresar exitosamente")
   public void deberiaIngresarExitosamente() {
-    // Espera a que aparezca PRODUCTS o un mensaje de error
     waitFor().until(d -> {
       boolean ok = !d.findElements(AppiumBy.xpath("//*[@text='PRODUCTS']")).isEmpty();
       boolean err = !d.findElements(AppiumBy.accessibilityId("test-Error message")).isEmpty();

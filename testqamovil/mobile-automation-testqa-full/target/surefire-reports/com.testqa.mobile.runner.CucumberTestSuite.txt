@@ -1,21 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: com.testqa.mobile.runner.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 57.87 s <<< FAILURE! -- in com.testqa.mobile.runner.CucumberTestSuite
-Flujo de compra en la app.Comprar 3 productos aleatorios -- Time elapsed: 32.85 s <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 79.71 s <<< FAILURE! -- in com.testqa.mobile.runner.CucumberTestSuite
+Flujo de compra en la app.Comprar 3 productos aleatorios -- Time elapsed: 31.33 s <<< ERROR!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.accessibilityId: test-Username (tried for 25 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at com.testqa.mobile.stepdefinitions.LoginSteps.elUsuarioAbreLaApp(LoginSteps.java:68)
-	at ✽.el usuario abre la app(file:///home/giovanni/testqamovil/mobile-automation-testqa-full/src/test/resources/features/shopping.feature:4)
+	at ✽.el usuario abre la app(file:///home/giovanni/testingqa/testqamovil/mobile-automation-testqa-full/src/test/resources/features/shopping.feature:4)
 Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-71-generic', java.version: '17.0.16'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [78da2838-82d8-4e57-aba6-1fe9b5a8bdb8, findElement {using=accessibility id, value=test-Username}]
-Capabilities {appium:adbExecTimeout: 120000, appium:app: /home/giovanni/testqamovil/..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:appWaitDuration: 60000, appium:appWaitForLaunch: true, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /home/giovanni/testqamovil/..., appWaitActivity: *, appWaitDuration: 60000, appWaitForLaunch: true, autoGrantPermissions: true, automationName: UiAutomator2, disableWindowAnimation: true, ignoreHiddenApiPolicyError: true, noReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 78da2838-82d8-4e57-aba6-1fe9b5a8bdb8
+Command: [f913ebe1-eb80-4f58-9821-96b1f77978a4, findElement {using=accessibility id, value=test-Username}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /home/giovanni/testingqa/te..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:appWaitDuration: 60000, appium:appWaitForLaunch: true, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /home/giovanni/testingqa/te..., appWaitActivity: *, appWaitDuration: 60000, appWaitForLaunch: true, autoGrantPermissions: true, automationName: UiAutomator2, disableWindowAnimation: true, ignoreHiddenApiPolicyError: true, noReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f913ebe1-eb80-4f58-9821-96b1f77978a4
 	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: runners.SerenityCucumberIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 82.931 s - in runners.SerenityCucumberIT

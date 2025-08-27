@@ -33,8 +33,7 @@
       <version>${serenity.version}</version>
     </dependency>
 
-    <!-- Appium 8.x (compatible con Selenium 4) 
-         Excluimos Selenium para no mezclar con el que trae Serenity -->
+    
     <dependency>
       <groupId>io.appium</groupId>
       <artifactId>java-client</artifactId>
@@ -63,9 +62,7 @@
       </exclusions>
     </dependency>
 
-    <!-- NO declarar selenium-java aquí -->
-
-    <!-- Assertions -->
+  
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
@@ -73,7 +70,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Logging (opcional) -->
+   
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
@@ -83,7 +80,7 @@
 
   <build>
     <plugins>
-      <!-- Compiler -->
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -95,7 +92,7 @@
         </configuration>
       </plugin>
 
-      <!-- Surefire -->
+    
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -107,7 +104,7 @@
         </configuration>
       </plugin>
 
-      <!-- Serenity report plugin -->
+      
       <plugin>
         <groupId>net.serenity-bdd.maven.plugins</groupId>
         <artifactId>serenity-maven-plugin</artifactId>

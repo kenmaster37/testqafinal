@@ -1,0 +1,2 @@
+emulator -avd Medium_Phone_API_36.0 -gpu swiftshader_indirect -no-snapshot
+
